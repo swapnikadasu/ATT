@@ -15,23 +15,23 @@ public class sixweek{
         
        
 		        WebElement MobileNum=driver.findElement(By.className("username"));
-		        MobileNum.sendKeys("9686548596");
+		        MobileNum.sendKeys("9874563421");
 		        Thread.sleep(1000);
 		        		        
 		        WebElement registerbtn=driver.findElement(By.className("login-btn"));
 		        registerbtn.click();
 		        Thread.sleep(2000);
 		        
-		        WebElement gendbtn=driver.findElement(By.xpath("//*[@id=\"login-modal\"]/div/div/div[2]/div[2]/form/div[3]/label[2]/span"));
+		        WebElement gendbtn=driver.findElement(By.className("gender-opt"));
 		        gendbtn.click();
 		        Thread.sleep(1000);
 		        
 		        WebElement first=driver.findElement(By.xpath("//*[@id=\"login-modal\"]/div/div/div[2]/div[2]/form/div[5]/input"));
-		        first.sendKeys("mourya");
+		        first.sendKeys("swapnika");
 		        Thread.sleep(1000);
 		        
 		        WebElement email=driver.findElement(By.xpath("//*[@id=\"login-modal\"]/div/div/div[2]/div[2]/form/div[7]/input"));
-		        email.sendKeys("minato345@gmail.com");
+		        email.sendKeys("abftrdt1234@gmail.com");
 		        Thread.sleep(1000);
 		        
 		        WebElement tnc=driver.findElement(By.xpath("//*[@id=\"tncCheckbox\"]"));
